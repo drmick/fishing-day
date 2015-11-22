@@ -59,6 +59,7 @@ gem "carrierwave"
 gem 'simple_captcha2', require: 'simple_captcha'
 gem 'cancancan', '~> 1.9'
 gem 'foreigner'
+gem 'mina'
 
 #gem "fastimage_resize"
 #gem 'paperclip-sftp'

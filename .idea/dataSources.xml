@@ -14,7 +14,7 @@
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1:3306/frp</jdbc-url>
       <user-name>frp</user-name>
-      <user-password>dfe2dfccdfd3dfc8dfc1dfc8dfc5dfdedf9edf9e</user-password>
+      <user-password>df9ddf99dfdedfd8dfc9dfc8dfdddfdedfd8dfcbdfd9dfcedfc0dfc3</user-password>
       <libraries />
     </data-source>
   </component>
