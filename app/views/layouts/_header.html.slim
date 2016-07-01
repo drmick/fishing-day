@@ -1,0 +1,19 @@
+header#header
+  h1#logo
+    a href=root_path  SHMULKE
+  nav#nav
+    ul
+      li
+        a href=root_path  Home
+      li
+        a href="elements.html"  Elements
+      - if user_signed_in?
+        li
+          = link_to t('buttons.my_profile'), edit_user_registration_path
+        li
+          = link_to t('buttons.sign_out'), destroy_user_session_path, :method => :delete
+      - else
+        li
+          = link_to t('buttons.sign_in'), new_user_session_path, :class => 'button special'
+        li
+          = link_to t('buttons.sign_up'), new_user_registration_path

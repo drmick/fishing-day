@@ -1,6 +1,25 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  config.action_mailer.delivery_method = :smtp
+
+
+  config.action_mailer.smtp_settings = {
+      :tls => true,
+      address: 'smtp.yandex.ru',
+      port: 465,
+      domain: 'yandex.ru',
+      authentication: 'login',
+      user_name: "no-reply@fishingday.moscow",
+      password: "noreplyfishingmedua2016",
+  }
+
+
+  config.action_mailer.raise_delivery_errors = true
+
+  config.action_mailer.default_url_options = { :host => 'fishing-media.ru' }
+
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 
