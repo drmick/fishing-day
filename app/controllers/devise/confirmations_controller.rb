@@ -32,6 +32,12 @@ class Devise::ConfirmationsController < DeviseController
     self.resource.save
 
     if resource.errors.empty?
+
+      if !resource.sector.nil?
+        UserMailer.after_reg(resource).deliver_now
+      end
+
+
       set_flash_message(:notice, :confirmed) if is_flashing_format?
       respond_with_navigational(resource){ redirect_to after_confirmation_path_for(resource_name, resource) }
     else

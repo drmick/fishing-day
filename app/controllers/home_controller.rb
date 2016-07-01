@@ -1,6 +1,10 @@
 class HomeController < ApplicationController
   def index
 
+    p 1
+    #UserMailer.after_reg(User.first).deliver_now
+    p 2
+
 
     #
     # (1..1).each do |i|
