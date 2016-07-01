@@ -14,7 +14,7 @@ Rails.application.configure do
       password: "noreplyfishingmedua2016",
   }
   config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.default_url_options = { :host => 'fishday.decl.ml' }
+  config.action_mailer.default_url_options = { :host => 'fishingday.decl.ml' }
 
 
   config.assets.raise_runtime_errors = true
