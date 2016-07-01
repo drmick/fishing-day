@@ -1,9 +1,6 @@
-p Добрый день, #{@user.email}!
-
+=render 'email_header', user:@user
 p Номер вашего сектора: #{@user.sector}
 
 p Код идентификации: #{@user.unique_key}
 
-|С Уважением,
-br
-|Команда фестиваля "День рыбака"
+=render 'email_footer'

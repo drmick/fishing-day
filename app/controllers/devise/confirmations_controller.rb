@@ -35,6 +35,8 @@ class Devise::ConfirmationsController < DeviseController
 
       if !resource.sector.nil?
         UserMailer.after_reg(resource).deliver_now
+      else
+        UserMailer.no_sector(resource).deliver_now
       end
 
 
