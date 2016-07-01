@@ -13,11 +13,11 @@ Rails.application.configure do
       user_name: "no-reply@fishingday.moscow",
       password: "noreplyfishingmedua2016",
   }
-
-
   config.action_mailer.raise_delivery_errors = true
-
   config.action_mailer.default_url_options = { :host => 'fishday.decl.ml' }
+
+
+  config.assets.raise_runtime_errors = true
 
 
   # Code is not reloaded between requests.
