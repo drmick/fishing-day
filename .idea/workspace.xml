@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ed1a91e6-7bcf-4639-b0d8-45fdaa2eb236" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/devise.en.yml" afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" />
     </list>
     <ignored path="frp.iws" />
     <ignored path=".idea/workspace.xml" />
