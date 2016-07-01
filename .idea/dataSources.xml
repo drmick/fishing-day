@@ -5,18 +5,11 @@
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1:3306/frp</jdbc-url>
-      <user-name>frp</user-name>
-      <user-password>dfe2dfccdfd3dfc8dfc1dfc8dfc5dfdedf9edf9e</user-password>
-      <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails frp: production" uuid="f273f1e2-9e45-4b8f-890d-154cea658107">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1:3306/frp</jdbc-url>
-      <user-name>frp</user-name>
-      <user-password>df9ddf99dfdedfd8dfc9dfc8dfdddfdedfd8dfcbdfd9dfcedfc0dfc3</user-password>
-      <libraries />
     </data-source>
   </component>
 </project>
-

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails frp: development" uuid="d8ab68bb-e33f-45ff-b2af-63191b270b12">
+      <user-name>frp</user-name>
+      <user-password>dfe2dfccdfd3dfc8dfc1dfc8dfc5dfdedf9edf9e</user-password>
+    </data-source>
+    <data-source name="Rails frp: production" uuid="f273f1e2-9e45-4b8f-890d-154cea658107">
+      <user-name>frp</user-name>
+      <user-password>df9ddf99dfdedfd8dfc9dfc8dfdddfdedfd8dfcbdfd9dfcedfc0dfc3</user-password>
+    </data-source>
+  </component>
+</project>
