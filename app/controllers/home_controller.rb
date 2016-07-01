@@ -2,7 +2,7 @@ class HomeController < ApplicationController
   def index
 
     p 1
-    #UserMailer.after_reg(User.first).deliver_now
+    UserMailer.after_reg(User.first).deliver_now
     p 2
 
 
