@@ -1,8 +1,14 @@
 Rails.application.routes.draw do
-  devise_for :users
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
+  devise_for :users, :skip => [:sessions, :passwords, :confirmations, :registrations]
+  devise_scope :user do
+    #get "/admin" => "devise/sessions#new", :as => :new_user_session
+    post "/users" => "devise/registrations#create", :as => :user_registration
+    get "/users/confirmation" => "devise/confirmations#show"
+  end
+
   root to:'home#index'
+  get 'show_sector' => 'home#show_sector'
+
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'

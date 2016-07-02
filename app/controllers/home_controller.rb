@@ -1,27 +1,9 @@
 class HomeController < ApplicationController
   def index
+    redirect_to show_sector_path(sector:1, unique_key:12345)
+  end
 
-    p 1
-   # UserMailer.no_sector(User.first).deliver_now
-
-    p 2
-
-
-    #
-    # (1..1).each do |i|
-    #   u = User.new
-    #
-    #
-    #   count = User.active.count
-    #   if count < 300
-    #
-    #     u.sector = u.get_sector_id
-    #     u.email = u.sector.to_s + '@qwe.r'
-    #     u.password = u.sector.to_s+ '12345678'
-    #     u.save!
-    #   end
-    # end
-
+  def show_sector
 
   end
 end
