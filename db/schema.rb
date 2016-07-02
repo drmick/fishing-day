@@ -26,6 +26,9 @@ ActiveRecord::Schema.define(version: 20160701142303) do
     t.string   "last_sign_in_ip",        limit: 255
     t.integer  "sector",                 limit: 4
     t.string   "unique_key",             limit: 255
+    t.integer  "phone_number",           limit: 4,                null: false
+    t.string   "first_name",             limit: 255,              null: false
+    t.string   "last_name",              limit: 255,              null: false
     t.string   "confirmation_token",     limit: 255
     t.datetime "confirmed_at"
     t.datetime "confirmation_sent_at"

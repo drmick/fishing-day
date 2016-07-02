@@ -1,0 +1,15 @@
+h2 Sign up
+
+= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :email, required: true, autofocus: true
+    = f.input :phone_number, required: true, input_html: {value: 111111111}
+    = f.input :first_name, required: true, input_html: {value: 11111111}
+    = f.input :last_name, required: true, input_html: {value: 111111111}
+
+
+  .form-actions
+    = f.button :submit, "Sign up"
+

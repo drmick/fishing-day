@@ -12,7 +12,14 @@ class Devise::RegistrationsController < DeviseController
 
   # POST /resource
   def create
-    build_resource(sign_up_params)
+    p sign_up_params
+    s_par = sign_up_params
+    pass =  (0...10).map { (65 + rand(26)).chr }.join
+    s_par[:password] = pass
+    s_par[:password_confirmation] = pass
+
+    build_resource(s_par)
+    p s_par
 
     resource.save
     yield resource if block_given?
@@ -133,9 +140,11 @@ class Devise::RegistrationsController < DeviseController
     self.resource = send(:"current_#{resource_name}")
   end
 
-  def sign_up_params
-    devise_parameter_sanitizer.sanitize(:sign_up)
-  end
+  #def sign_up_params
+  #  devise_parameter_sanitizer.sanitize(:sign_up)
+  #end
+
+
 
   def account_update_params
     devise_parameter_sanitizer.sanitize(:account_update)
@@ -143,5 +152,11 @@ class Devise::RegistrationsController < DeviseController
 
   def translation_scope
     'devise.registrations'
+  end
+
+  private
+
+  def sign_up_params
+    params.require(:user).permit(:first_name, :last_name, :email, :phone_number)
   end
 end

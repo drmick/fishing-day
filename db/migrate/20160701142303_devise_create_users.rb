@@ -22,6 +22,10 @@ class DeviseCreateUsers < ActiveRecord::Migration
       t.integer :sector
       t.string :unique_key
 
+      t.integer :phone_number, null: false
+      t.string :first_name, null: false
+      t.string :last_name, null: false
+
 
       ## Confirmable
       t.string   :confirmation_token

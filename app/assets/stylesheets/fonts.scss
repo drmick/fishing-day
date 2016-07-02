@@ -1,0 +1,69 @@
+/* font-family: "OpenSansCondensedLight"; */
+
+@font-face {
+  font-family: "OpenSansCondensedLight";
+  src: url(font-path('OpenSansCondensedLight/OpenSansCondensedLight.eot'));
+  src: url(font-path('OpenSansCondensedLight/OpenSansCondensedLight.eot?#iefix'))format("embedded-opentype"),
+  url(font-path('OpenSansCondensedLight/OpenSansCondensedLight.woff')) format("woff"),
+  url(font-path('OpenSansCondensedLight/OpenSansCondensedLight.ttf')) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "OpenSansCondensedLightItalic"; */
+@font-face {
+  font-family: "OpenSansCondensedLightItalic";
+  src: url(font-path('OpenSansCondensedLightItalic/OpenSansCondensedLightItalic.eot'));
+  src: url(font-path('OpenSansCondensedLightItalic/OpenSansCondensedLightItalic.eot?#iefix')) format("embedded-opentype"),
+  url(font-path('OpenSansCondensedLightItalic/OpenSansCondensedLightItalic.woff')) format("woff"),
+  url(font-path('OpenSansCondensedLightItalic/OpenSansCondensedLightItalic.ttf')) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "OpenSansCondensedBold"; */
+@font-face {
+  font-family: "OpenSansCondensedBold";
+  src: url(font-path("OpenSansCondensedBold/OpenSansCondensedBold.eot"));
+  src: url(font-path("fonts/OpenSansCondensedBold/OpenSansCondensedBold.eot?#iefix"))format("embedded-opentype"),
+  url(font-path("OpenSansCondensedBold/OpenSansCondensedBold.woff")) format("woff"),
+  url(font-path("OpenSansCondensedBold/OpenSansCondensedBold.ttf")) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "OpenSansLight"; */
+@font-face {
+  font-family: "OpenSansLight";
+  src: url(font-path("OpenSansLight/OpenSans-Light.ttf")) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(font-path("OpenSans-Regular.ttf")) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSansBold";
+  src: url(font-path("OpenSans-Bold.ttf")) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
+@font-face {
+  font-family: "OpenSerif";
+  src: url(font-path("Serif/PTZ55F.ttf")) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(font-path("roboto/Roboto-Regular.ttf")) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
