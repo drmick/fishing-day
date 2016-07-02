@@ -1,6 +1,7 @@
 class Devise::RegistrationsController < DeviseController
   prepend_before_filter :require_no_authentication, only: [:new, :create, :cancel]
   prepend_before_filter :authenticate_scope!, only: [:edit, :update, :destroy]
+  respond_to :html, :js
 
   # GET /resource/sign_up
   def new
@@ -12,7 +13,6 @@ class Devise::RegistrationsController < DeviseController
 
   # POST /resource
   def create
-    p sign_up_params
     s_par = sign_up_params
     pass =  (0...10).map { (65 + rand(26)).chr }.join
     s_par[:password] = pass
@@ -22,6 +22,15 @@ class Devise::RegistrationsController < DeviseController
     p s_par
 
     resource.save
+    @em = ''
+    resource.errors.full_messages.map { |msg|
+      if @em.length>1
+        @em = @em + '\n'+ msg
+      else
+        @em = msg
+      end
+    }.join
+    @em.gsub! '"', "'"
     yield resource if block_given?
     if resource.persisted?
       if resource.active_for_authentication?

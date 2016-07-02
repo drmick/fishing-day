@@ -1,0 +1,23 @@
+@import "home";
+.row-4 {
+  height: 340px;
+  position: relative;
+  background-color: #3b5aa8;
+  .cont {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    padding: 15px;
+
+    form {
+      padding: 20px;
+      .form-actions {
+        margin: 30px;
+      }
+    }
+
+
+  }
+}

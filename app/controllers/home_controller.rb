@@ -3,6 +3,7 @@ class HomeController < ApplicationController
 
     p 1
    # UserMailer.no_sector(User.first).deliver_now
+
     p 2
 
 
