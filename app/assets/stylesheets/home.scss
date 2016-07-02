@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 html {
-  min-width: 1200px;
+  min-width: 1280px;
 }
 
 $blue : #23408f;
@@ -88,7 +88,7 @@ nav.navbar {
       margin-bottom: 0px;
       padding-top: 0px;
       padding-bottom: 0px;
-      width: 140px;
+      width: 280px;
     }
     .sb {
       font-size: 26px;
@@ -126,6 +126,12 @@ nav.navbar {
 }
 
 .bimg-3 {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.bimg-4 {
   width: 100%;
   height: 600px;
   overflow: hidden;

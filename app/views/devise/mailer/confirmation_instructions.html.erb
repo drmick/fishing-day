@@ -1,7 +1,7 @@
 <p>Добрый день, <%= @email %>!</p>
 
-<p>Вы можете подтвердить Ваш аккаунт по ссылке</p>
+<p>Вы можете подтвердить Вашу регистрацию на турнире по ссылке</p>
 
-<p><%= link_to 'подтвердить мой аккаунт', confirmation_url(@resource, confirmation_token: @token) %></p>
+<p><%= link_to 'подтвердить регистрациию', confirmation_url(@resource, confirmation_token: @token) %></p>
 
 <%=render 'user_mailer/email_footer'%>

@@ -41,7 +41,9 @@ class Devise::ConfirmationsController < DeviseController
 
 
       set_flash_message(:notice, :confirmed) if is_flashing_format?
-      respond_with_navigational(resource){ redirect_to after_confirmation_path_for(resource_name, resource) }
+      #respond_with_navigational(resource){ redirect_to after_confirmation_path_for(resource_name, resource) }
+      redirect_to show_sector_path(sector:resource.sector, unique_key:resource.unique_key)
+
     else
       respond_with_navigational(resource.errors, status: :unprocessable_entity){ render :new }
     end
@@ -59,7 +61,8 @@ class Devise::ConfirmationsController < DeviseController
       if signed_in?(resource_name)
         signed_in_root_path(resource)
       else
-        new_session_path(resource_name)
+        #new_session_path(resource_name)
+        redirect_to show_sector_path(sector:resource.sector, unique_key:resource.unique_key)
       end
     end
 

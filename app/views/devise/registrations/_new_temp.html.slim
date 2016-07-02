@@ -4,13 +4,16 @@
     .row
 
       .col-xs-3
-        = f.input :first_name, required: true, input_html: {value: 11111111}, placeholder:"Имя", label:false
+        = f.input :first_name, required: true, input_html: {value: ''}, placeholder:"Имя", label:false
       .col-xs-3
-        = f.input :last_name, required: true, input_html: {value: 111111111}, placeholder:"Фамилия", label:false
+        = f.input :last_name, required: true, input_html: {value: ''}, placeholder:"Фамилия", label:false
       .col-xs-3
-        = f.input :phone_number, required: false, input_html: {value: 111111111}, placeholder:"Телефон", label:false
+        .inline.phone-pref
+          |+7
+        .inline
+          = f.input :phone_number, required: false, input_html: {value: ''}, placeholder:"Телефон", label:false
       .col-xs-3
-        = f.input :email, required: true, autofocus: true, placeholder: "E-mail", label:false
+        = f.input :email, required: true, placeholder: "E-mail", label:false
   .form-actions
     = f.button :submit, "ЗАРЕГИСТРИРОВАТЬСЯ", class:"btn btn-warning"
 

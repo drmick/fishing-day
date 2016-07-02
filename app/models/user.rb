@@ -4,7 +4,7 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable, :confirmable
 
-  validates :phone_number, presence: true, numericality: true, uniqueness: true
+  validates :phone_number, presence: true, numericality: true
   validates :first_name, presence: true, numericality: false
   validates :last_name, presence: true, numericality: false
   validates_length_of :phone_number, :minimum => 10, :maximum => 10, :allow_blank => false

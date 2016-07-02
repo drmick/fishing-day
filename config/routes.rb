@@ -4,6 +4,8 @@ Rails.application.routes.draw do
     #get "/admin" => "devise/sessions#new", :as => :new_user_session
     post "/users" => "devise/registrations#create", :as => :user_registration
     get "/users/confirmation" => "devise/confirmations#show"
+    post "/users/confirmation" => "devise/confirmations#create", :as => :user_confirmation
+
   end
 
   root to:'home#index'
