@@ -71,6 +71,11 @@
   color:white;
   font-family: "OpenSansCondensedBold";
   font-size: 56px;
+
+  @media (max-width: 768px) {
+    font-size: 26px;
+  }
+
 }
 
 .bl-text {
@@ -78,4 +83,12 @@
   color:black;
   font-size: 13px;
   text-align: left;
+}
+
+.text-page {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 18px;
+  text-align: left;
+  font-family: "OpenSans";
+  line-height: 1.25em;
 }

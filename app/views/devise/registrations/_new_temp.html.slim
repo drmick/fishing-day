@@ -3,16 +3,16 @@
   .form-inputs
     .row
 
-      .col-xs-3
+      .col-xs-12.col-md-6.col-sm-6.col-lg-3
         = f.input :first_name, required: true, input_html: {value: ''}, placeholder:"Имя", label:false
-      .col-xs-3
+      .col-xs-12.col-md-6.col-sm-6.col-lg-3
         = f.input :last_name, required: true, input_html: {value: ''}, placeholder:"Фамилия", label:false
-      .col-xs-3
+      .col-xs-12.col-md-6.col-sm-6.col-lg-3
         .inline.phone-pref
           |+7
-        .inline
+        .inline.phone-input
           = f.input :phone_number, required: false, input_html: {value: ''}, placeholder:"Телефон", label:false
-      .col-xs-3
+      .col-xs-12.col-md-6.col-sm-6.col-lg-3
         = f.input :email, required: true, placeholder: "E-mail", label:false
   .form-actions
     = f.button :submit, "ЗАРЕГИСТРИРОВАТЬСЯ", class:"btn btn-warning"

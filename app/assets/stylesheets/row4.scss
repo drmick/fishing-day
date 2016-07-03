@@ -1,13 +1,8 @@
 @import "home";
 .row-4 {
-  height: 340px;
-  position: relative;
   background-color: #3b5aa8;
   .cont {
-    position: absolute;
-    top: 50px;
-    left: 0px;
-    right: 0px;
+    position: relative;
     text-align: center;
     padding: 15px;
 
@@ -15,6 +10,9 @@
       padding: 20px;
       .form-actions {
         margin: 30px;
+        @media (max-width: 768px) {
+          margin: 0px;
+        }
       }
     }
   }
@@ -23,4 +21,13 @@
 .phone-pref {
   color:white;
   font-size: 16px;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 34px;
+}
+
+.phone-input {
+  width: 85%;
+  float: right;
+
 }
