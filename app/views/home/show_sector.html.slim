@@ -1,5 +1,5 @@
 .reg-res
-  -if params[:sector].nil?
+  -if !params[:sector].nil?
     h1 Вы успешно прошли регистрацию на турнире
     h2 Номер вашего сектора: #{params[:sector]}
     h2 Уникальный номер участника: #{params[:unique_key]}
@@ -16,5 +16,5 @@
 
   =render 'user_mailer/email_footer'
 
-
-a.btn.btn-warning href=root_path ВЕРНУТЬСЯ НА ГЛАВНУЮ
+.rr
+  a.btn.btn-warning href=root_path ВЕРНУТЬСЯ НА ГЛАВНУЮ
