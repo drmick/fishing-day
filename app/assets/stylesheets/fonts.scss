@@ -92,3 +92,66 @@
   font-family: "OpenSans";
   line-height: 1.25em;
 }
+
+.text-page-white {
+  color: rgba(248, 248, 248, 0.91);
+  font-size: 18px;
+  text-align: left;
+  font-family: "OpenSans";
+  line-height: 1.25em;
+}
+
+.text-page-white2 {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  text-align: left;
+  font-family: "OpenSans";
+  line-height: 1.25em;
+}
+.text-page2 {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  text-align: left;
+  font-family: "OpenSans";
+  line-height: 1.25em;
+}
+
+.middle-text-white {
+  color:white;
+  font-family: "OpenSansCondensedBold";
+  font-size: 24px;
+  text-align: left;
+}
+
+.middle-text {
+  text-align: left;
+  color:black;
+  font-family: "OpenSansCondensedBold";
+  font-size: 24px;
+}
+
+.text-w1 {
+  text-align: left;
+  color:white;
+  font-family: "OpenSansCondensedBold";
+  font-size: 16px;
+}
+
+
+.text-w2 {
+  text-align: left;
+  color:white;
+  font-family: "OpenSans";
+  font-size: 12px;
+  b {
+    padding-right: 5px;
+  }
+}
+
+.text-w3 {
+  text-align: left;
+  color:white;
+  font-family: "OpenSans";
+  font-size: 12px;
+  font-weight: bold;
+}

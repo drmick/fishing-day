@@ -1,0 +1,25 @@
+.row-7{
+  .small-img2, .small-img{
+    img {
+      max-width: 100%;
+    }
+    text-align: center;
+
+    padding: 10px;
+  }
+
+  .left {
+    img {
+      margin: 0px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .img1 {
+      top:30px !important;
+    }
+    .img2 {
+      top:330px !important;
+    }
+  }
+
+}

@@ -1,10 +1,14 @@
 .row-3
-  =image_tag("bck3.jpg", class:"bimg-3");
+  .img-wrp
+    = image_tag("bck3.jpg", class: "bimg-3");
+    .grad-white
   .cont.ta-c
-    .row.c
-      .col-lg-6.left.col-md-6.col-sm-6
-        =image_tag("3-1.png")
+    .row.c.nopaddng
+      .col-lg-6.left.col-md-6.col-sm-6.hidden-xs
+        = image_tag("3-1.png")
       .col-lg-6.right.text-page.col-md-6.col-sm-6
+        .visible-xs.small-img
+          = image_tag("3-1.png")
         p
         | По-настоящему народный рыболовный турнир - “Народная
           Рыболовная Лига”. К участию приглашаются все рыболовы, имеющие
