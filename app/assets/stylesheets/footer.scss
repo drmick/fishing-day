@@ -40,6 +40,14 @@
     top:40px;
     position: absolute;
     right: 40px;
+    @media (max-width: 768px) {
+      left: 40px;
+      right: auto;
+      top:120px;
+      padding-bottom: 10px;
+    }
   }
+
+
 
 }

@@ -1,9 +1,21 @@
 nav.navbar.navbar-inverse.navbar-fixed-top role="navigation" 
   .container
     #header_panel.collapse.navbar-collapse
-      a href=root_path ГЛАВНАЯ
-      a href="#reg" О СОБЫТИИ
-      a href="#reg" ХОЧУ УЧАВСТВОВАТЬ В ТУРНИРЕ!
-      a href="#about" ИНФОРМАЦИЯ О ФЕСТИВАЛЕ
-      a href="#services" СХЕМА ПРОЕЗДА
-      a href="#contact" КОНТАКТЫ
+      ul.nav.navbar-nav
+        li
+          a href=root_path ГЛАВНАЯ
+        li
+          a href="#row12" О СОБЫТИИ
+        li
+          a href="#row4" ХОЧУ УЧАВСТВОВАТЬ В ТУРНИРЕ!
+        li
+          a href="#row2" ИНФОРМАЦИЯ О ФЕСТИВАЛЕ
+        li
+          a href="#row14" СХЕМА ПРОЕЗДА
+        li
+          a href="#row14" КОНТАКТЫ
+  button.float-right.navbar-toggle.collapsed type="button" data-toggle="collapse" data-target="#header_panel" aria-expanded="false" aria-controls="navbar"
+    span.sr-only Toggle navigation
+    span.icon-bar
+    span.icon-bar
+    span.icon-bar

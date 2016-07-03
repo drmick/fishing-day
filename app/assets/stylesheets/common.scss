@@ -32,7 +32,6 @@ input.form-control {
 
 .anch {
   top: -100px;
-  position: absolute;
 
 }
 
@@ -74,4 +73,20 @@ input.form-control {
 
 body {
   background-color:#23408f !important
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+
+}
+
+nav.navbar {
+  padding: 0px !important;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+
 }
