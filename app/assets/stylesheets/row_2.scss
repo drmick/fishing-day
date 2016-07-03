@@ -1,0 +1,180 @@
+.row-2 {
+  position: relative;
+  background-color: black;
+  padding: 20px 10px 40px 20px;
+  .cont {
+    position: relative;
+    // top: 50px;
+    // left: 0px;
+    //right: 0px;
+    text-align: center;
+  }
+
+  @media (max-width: 550px) {
+    padding: 5px;
+  }
+}
+
+.r2t1, .r2t3 {
+  font-family: "OpenSansLight";
+  color:white;
+  @media (max-width: 768px) {
+    font-size: 16px;
+    padding: 10px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 18px;
+    padding: 10px;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    font-size: 20px;
+    padding: 15px;
+  }
+  @media (min-width: 1200px) {
+    padding: 30px;
+    font-size: 24px;
+  }
+}
+
+.r2t2 {
+  font-family: "OpenSansLight";
+  color:white;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+    padding: 5px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 16px;
+    padding: 5px;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    font-size: 18px;
+    padding: 10px;
+  }
+  @media (min-width: 1200px) {
+    padding: 20px;
+    font-size: 20px;
+  }
+}
+
+
+.bl2-1 {
+  position: absolute;
+  left:200px;
+  top:45px;
+  right:69px;
+}
+
+.bl2-2 {
+  position: absolute;
+  left:230px;
+  top:69px;
+  right:27px;
+}
+
+.bl2-3 {
+  position: absolute;
+  left:227px;
+  top:41px;
+  right:47px;
+}
+
+.bl2-4 {
+  position: absolute;
+  left:239px;
+  top:70px;
+  right:47px;
+}
+
+.bl2-5 {
+  position: absolute;
+  left:239px;
+  top:70px;
+  right:47px;
+}
+
+.bl2-6 {
+  position: absolute;
+  left:239px;
+  top:70px;
+  right:47px;
+}
+
+.bl2-7 {
+  position: absolute;
+  left:284px;
+  top:52px;
+  right:47px;
+}
+
+.bl2-8 {
+  position: absolute;
+  left:209px;
+  top:45px;
+  right:47px;
+}
+
+.row-2 {
+  .bl {
+    @media (max-width: 550px) {
+      padding: 0px;
+    }
+    .wrp {
+      @media (max-width: 550px) {
+        img {
+          display: none !important;
+        }
+        .bl-text {
+          padding: 5px;
+          position: relative;
+          color: white;
+          left: 0px;
+          right: 0px;
+          top: 0px;
+          bottom: 0px;
+        }
+      }
+
+      @media (min-width: 551px) {
+        display: inline-block;
+        position: relative;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .bl2-1 {
+    background-color: rgba(91, 192, 222, 0.54);
+  }
+
+  .bl2-2 {
+    background-color: rgba(212, 129, 42, 0.55);
+  }
+
+  .bl2-3 {
+    background-color: rgba(182, 232, 113, 0.6);
+  }
+
+  .bl2-4 {
+    background-color: rgba(235, 208, 189, 0.61);
+  }
+
+  .bl2-5 {
+    background-color: rgba(222, 96, 213, 0.26);
+  }
+
+  .bl2-6 {
+    background-color: rgba(97, 158, 222, 0.35);
+  }
+
+  .bl2-7 {
+    background-color: rgba(189, 222, 136, 0.55);
+  }
+
+  .bl2-8 {
+    background-color: rgba(222, 220, 35, 0.35);
+  }
+
+}

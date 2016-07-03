@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 html {
-  min-width: 1280px;
+  //min-width: 1280px;
 }
 
 $blue : #23408f;
@@ -64,6 +64,7 @@ nav.navbar {
   .r1i1 {
     width: auto;
     height: auto;
+    max-width: 100%;
   }
   .iw {
     width: auto;
@@ -115,14 +116,19 @@ nav.navbar {
 .bimg-1 {
   width: 100%;
   height: 702px;
+  object-fit: cover;
 
   overflow: hidden;
 }
 
 .bimg-2 {
   width: 100%;
-  height: 1507px;
+  height: auto;
   overflow: hidden;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+
 }
 
 .bimg-3 {
