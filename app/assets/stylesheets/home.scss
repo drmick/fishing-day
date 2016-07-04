@@ -109,7 +109,18 @@ nav.navbar {
   .btm {
     position: absolute;
     bottom: 25px;
-    width: 100%
+    width: 100%;
+    @media (max-width: 767px) {
+      img {
+        height: 50px;
+        width: auto;
+      }
+      .col-xs-6 {
+        height: 70px;
+      }
+    }
+
+
   }
 
 }

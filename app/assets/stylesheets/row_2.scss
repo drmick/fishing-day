@@ -10,7 +10,7 @@
     text-align: center;
   }
 
-  @media (max-width: 550px) {
+  @media (max-width: 767px) {
     padding: 5px;
   }
 }
@@ -18,7 +18,7 @@
 .r2t1, .r2t3 {
   font-family: "OpenSansLight";
   color:white;
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     font-size: 16px;
     padding: 10px;
   }
@@ -40,7 +40,7 @@
   font-family: "OpenSansLight";
   color:white;
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     font-size: 14px;
     padding: 5px;
   }
@@ -117,11 +117,11 @@
 
 .row-2 {
   .bl {
-    @media (max-width: 550px) {
+    @media (max-width: 767px) {
       padding: 0px;
     }
     .wrp {
-      @media (max-width: 550px) {
+      @media (max-width: 767px) {
         img {
           display: none !important;
         }
@@ -136,7 +136,7 @@
         }
       }
 
-      @media (min-width: 551px) {
+      @media (min-width: 768px) {
         display: inline-block;
         position: relative;
       }
@@ -144,7 +144,7 @@
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 767px) {
   .bl2-1 {
     background-color: rgba(91, 192, 222, 0.54);
   }
