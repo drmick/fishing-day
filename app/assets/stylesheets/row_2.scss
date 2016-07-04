@@ -15,7 +15,7 @@
   }
 }
 
-.r2t1, .r2t3 {
+.r2t1, .r2t3, h1 {
   font-family: "OpenSansLight";
   color:white;
   @media (max-width: 767px) {
@@ -178,3 +178,5 @@
   }
 
 }
+
+h1 {line-height: 1.5em}
