@@ -91,6 +91,9 @@
   text-align: left;
   font-family: "OpenSans";
   line-height: 1.25em;
+  @media (max-width: 14px) {
+    font-size: 26px;
+  }
 }
 
 .text-page-white {
@@ -99,6 +102,9 @@
   text-align: left;
   font-family: "OpenSans";
   line-height: 1.25em;
+  @media (max-width: 767px) {
+    font-size: 14px;
+  }
 }
 
 .text-page-white2 {
@@ -107,6 +113,7 @@
   text-align: left;
   font-family: "OpenSans";
   line-height: 1.25em;
+
 }
 .text-page2 {
   color: rgb(0, 0, 0);
