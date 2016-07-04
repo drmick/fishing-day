@@ -5,4 +5,12 @@ class HomeController < ApplicationController
   def show_sector
 
   end
+
+  def rules
+
+  end
+
+  def exp
+
+  end
 end

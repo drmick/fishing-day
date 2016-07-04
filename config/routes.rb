@@ -10,6 +10,8 @@ Rails.application.routes.draw do
 
   root to:'home#index'
   get 'show_sector' => 'home#show_sector'
+  get 'rules' => 'home#rules'
+  get 'exp' => 'home#exp'
 
 
   # You can have the root of your site routed with "root"
