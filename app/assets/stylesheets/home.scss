@@ -169,3 +169,59 @@ nav.navbar {
   background-color: white;
 
 }
+
+.rules1 {
+  background-color: white;
+  padding: 50px 10px 10px 30px ;
+  @media (min-width: 768px) and (max-width: 991px) {
+    padding: 100px 10px 10px 30px ;
+  }
+  img {
+
+    height: 300px;
+    width: auto;
+    @media (max-width: 768px) {
+      height: 130px;
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+      height: 200px;
+
+    }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      height: 250px;
+    }
+  }
+  .btn {
+    margin: 20px;
+  }
+}
+.rules {
+  background-color: white;
+  padding: 0px 20% 3% 20%;
+  b {
+    line-height: 4em;
+  }
+
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  text-align: left;
+  font-family: "OpenSans";
+  line-height: 1.25em;
+
+  @media (max-width: 768px) {
+    padding: 0px 5% 5% 5%;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    padding: 0px 5% 5% 5%;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    padding: 0px 10% 10% 10%;
+  }
+  h1.he {
+    font-family: "OpenSansCondensedBold";
+    color: black;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    margin: 0px;
+  }
+}
