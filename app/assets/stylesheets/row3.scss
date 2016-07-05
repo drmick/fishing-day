@@ -55,11 +55,17 @@
       padding: 15px;
     }
     @media (min-width: 992px) and (max-width: 1199px) {
-     // padding: 20px;
+      padding: 20px;
     }
     @media (min-width: 1200px) {
       padding: 30px;
     };
+  }
+
+  .right.npd {
+    @media (min-width: 992px) and (max-width: 1199px) {
+      padding: 0px !important;
+    }
   }
 
 }
