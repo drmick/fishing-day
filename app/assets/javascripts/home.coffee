@@ -16,7 +16,7 @@ window.mapInit=->
     try
       #console.log 1
       lat = 55.754787
-      lon = 37.435214
+      lon = 37.440169
 
       myMap = new (ymaps.Map)('ymaps',
         center: [
