@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :expos
   devise_for :users, :skip => [:sessions, :passwords, :confirmations, :registrations]
   devise_scope :user do
     #get "/admin" => "devise/sessions#new", :as => :new_user_session

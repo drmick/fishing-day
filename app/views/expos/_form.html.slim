@@ -1,0 +1,12 @@
+= simple_form_for(Expo.new, remote: true, format: "js") do |f|
+  .form-inputs
+    .row
+      .col-xs-12.col-md-6.col-sm-6.col-lg-6
+        .inline.phone-pref
+          |+7
+        .inline.phone-input
+          = f.input :phone_number, required: false, input_html: {value: ''}, placeholder: "Телефон", label: false
+      .col-xs-12.col-md-6.col-sm-6.col-lg-6
+        = f.input :email, required: true, placeholder: "E-mail", label: false
+  .form-actions
+    = f.button :submit, "ОТПРАВИТЬ", class: "btn btn-warning"

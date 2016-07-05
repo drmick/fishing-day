@@ -9,4 +9,9 @@ class UserMailer < ApplicationMailer
     @user = user
     mail(to: @user.email, subject: 'Свободных секторов нет')
   end
+
+  def expo(exp)
+    @expo = exp
+    mail(to: "infiltrator53@gmail.com, sale@fishingday.moscow", subject: 'РЕГИСТРАЦИЯ НА ЯРМАРКУ!')
+  end
 end
