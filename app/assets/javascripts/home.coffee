@@ -15,8 +15,8 @@ window.mapInit=->
   if $('#ymaps').length > 0
     try
       #console.log 1
-      lat = 55.754787
-      lon = 37.440169
+      lat = 55.754585
+      lon = 37.440214
 
       myMap = new (ymaps.Map)('ymaps',
         center: [
