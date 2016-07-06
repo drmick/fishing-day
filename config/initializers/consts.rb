@@ -1,1 +1,1 @@
-C_MAX_SEC = 300
+C_MAX_SEC = 350
