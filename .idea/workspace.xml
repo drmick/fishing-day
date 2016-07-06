@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed1a91e6-7bcf-4639-b0d8-45fdaa2eb236" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/row10.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/row10.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/row3.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/row3.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/row9.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/row9.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/row_2.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/row_2.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/_new_temp.html.slim" afterPath="$PROJECT_DIR$/app/views/devise/registrations/_new_temp.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_row_1.html.slim" afterPath="$PROJECT_DIR$/app/views/home/_row_1.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_row_10.html.slim" afterPath="$PROJECT_DIR$/app/views/home/_row_10.html.slim" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_row_12.html.slim" afterPath="$PROJECT_DIR$/app/views/home/_row_12.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_row_2.html.slim" afterPath="$PROJECT_DIR$/app/views/home/_row_2.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_row_3.html.slim" afterPath="$PROJECT_DIR$/app/views/home/_row_3.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_row_4.html.slim" afterPath="$PROJECT_DIR$/app/views/home/_row_4.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_row_5.html.slim" afterPath="$PROJECT_DIR$/app/views/home/_row_5.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_row_7.html.slim" afterPath="$PROJECT_DIR$/app/views/home/_row_7.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_row_8.html.slim" afterPath="$PROJECT_DIR$/app/views/home/_row_8.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_row_9.html.slim" afterPath="$PROJECT_DIR$/app/views/home/_row_9.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_rule_cont.html.slim" afterPath="$PROJECT_DIR$/app/views/home/_rule_cont.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/exp.html.slim" afterPath="$PROJECT_DIR$/app/views/home/exp.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.slim" afterPath="$PROJECT_DIR$/app/views/home/index.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/rules.html.slim" afterPath="$PROJECT_DIR$/app/views/home/rules.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/show_sector.html.slim" afterPath="$PROJECT_DIR$/app/views/home/show_sector.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.slim" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.slim" />
     </list>
     <ignored path="frp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,14 +31,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_row_3.html.slim" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/home/_row_3.html.slim">
+      <file leaf-file-name="_header.html.slim" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-              <folding>
-                <marker date="1467823560230" expanded="true" signature="345:347" placeholder="| По-настоящему народный рыболовный турнир - “Народная" />
-              </folding>
+            <state vertical-scroll-proportion="-13.708333">
+              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show_sector.html.slim" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/home/show_sector.html.slim">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.5">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_row_13.html.slim" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/home/_row_13.html.slim">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,16 +83,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="row9.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/row9.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.25">
-              <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html.slim" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.slim">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="row_2.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="row_2.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/row_2.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46632123">
+            <state vertical-scroll-proportion="-11.25">
               <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding />
             </state>
@@ -127,21 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="row10.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/row10.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.0">
-              <caret line="71" column="25" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_row_12.html.slim" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_row_12.html.slim" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/home/_row_12.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5">
-              <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.3853211">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -225,9 +201,9 @@
         <option value="$PROJECT_DIR$/app/views/home/_row_10.html.slim" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/row10.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/row9.scss" />
-        <option value="$PROJECT_DIR$/app/views/home/_row_12.html.slim" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.slim" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/row_2.scss" />
+        <option value="$PROJECT_DIR$/app/views/home/_row_12.html.slim" />
       </list>
     </option>
   </component>
@@ -977,9 +953,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35902637" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35902637" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39350912" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39350912" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1033,14 +1009,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1218,13 +1186,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/show_sector.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1253,14 +1215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1381,14 +1335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/_row_12.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5">
-          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/rules.html.slim">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.625">
@@ -1415,8 +1361,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/row_2.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46632123">
+        <state vertical-scroll-proportion="-11.25">
           <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.708333">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/show_sector.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/_row_13.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/_row_12.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3853211">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding />
         </state>
       </provider>
