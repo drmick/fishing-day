@@ -10,7 +10,8 @@
 }
 
 .btn-warning {
-  background-color: #f9b71c !important;
+  background-color: #fe5400 !important;
+  border-color: #fe5400 !important;
 }
 
 .ta-c {
@@ -88,5 +89,10 @@ nav.navbar {
 
 .navbar .navbar-collapse {
   text-align: center;
+}
 
+.wra {
+  @media (max-width: 767px) {
+    text-align: center;
+  }
 }
