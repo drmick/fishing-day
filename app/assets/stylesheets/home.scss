@@ -177,9 +177,46 @@ nav.navbar {
   }
 }
 
-.reg-res {
-  padding:80px 10px 40px 10px;
-  background-color: white;
+.wrapper1 {
+  height: 800px;
+  margin: 0px;
+  padding: 0px;
+  .reg-res {
+    padding: 80px 10% 40px 10%;
+    background-color: white;
+    h2 {
+      font-size: 30px;
+      @media (max-width: 767px) {
+        font-size: 20px;
+      }
+      font-family: OpenSansCondensedBold;
+      color: #23408f !important;
+    }
+    p {
+      font-size: 14px;
+      font-family: "OpenSans";
+    }
+
+    box-sizing: border-box;
+    min-height: 100%;
+    padding-bottom: 90px;
+  }
+
+  .cus-row {
+    padding: 20px;
+    .col-xs-12 {
+      h1 {
+        color: black !important;
+        margin: 0px;
+        font-family: OpenSansCondensedBold;
+        padding: 5px;
+      }
+      padding: 20px;
+      margin: 2px;
+      //width: 200px;
+      background-color: #cde4f2;
+    }
+  }
 }
 
 .rr {
