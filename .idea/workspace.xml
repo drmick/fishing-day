@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ed1a91e6-7bcf-4639-b0d8-45fdaa2eb236" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/show_sector.html.slim" afterPath="$PROJECT_DIR$/app/views/home/show_sector.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user_mailer/_email_footer.html.slim" afterPath="$PROJECT_DIR$/app/views/user_mailer/_email_footer.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_row_3.html.slim" afterPath="$PROJECT_DIR$/app/views/home/_row_3.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_row_4.html.slim" afterPath="$PROJECT_DIR$/app/views/home/_row_4.html.slim" />
     </list>
     <ignored path="frp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,11 +43,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show_sector.html.slim" pinned="false" current-in-tab="true">
+      <file leaf-file-name="show_sector.html.slim" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/show_sector.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0726979">
+            <state vertical-scroll-proportion="-1.875">
               <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_row_3.html.slim" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/home/_row_3.html.slim">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.57798165">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+              <folding>
+                <marker date="1467840133046" expanded="true" signature="345:347" placeholder="| По-настоящему народный рыболовный турнир - “Народная" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_row_4.html.slim" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/home/_row_4.html.slim">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,31 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="consts.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/consts.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="fonts.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/fonts.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-10.625">
               <caret line="127" column="37" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.slim" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.slim">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -157,7 +158,6 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/row11.scss" />
         <option value="$PROJECT_DIR$/app/views/home/_row_11.html.slim" />
         <option value="$PROJECT_DIR$/app/views/home/_row_13.html.slim" />
-        <option value="$PROJECT_DIR$/app/views/home/_row_4.html.slim" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
@@ -192,7 +192,6 @@
         <option value="$PROJECT_DIR$/app/views/home/_row_6.html.slim" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/row_2.scss" />
         <option value="$PROJECT_DIR$/app/views/home/_row_8.html.slim" />
-        <option value="$PROJECT_DIR$/app/views/home/_row_3.html.slim" />
         <option value="$PROJECT_DIR$/app/views/home/exp.html.slim" />
         <option value="$PROJECT_DIR$/app/views/home/_footer.html.slim" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/footer.scss" />
@@ -205,6 +204,8 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.scss" />
         <option value="$PROJECT_DIR$/app/views/user_mailer/_email_footer.html.slim" />
         <option value="$PROJECT_DIR$/app/views/home/show_sector.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/home/_row_4.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/home/_row_3.html.slim" />
       </list>
     </option>
   </component>
@@ -995,11 +996,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3184584" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3184584" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35902637" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39350912" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39350912" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1258,14 +1259,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/_row_4.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="5" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/_row_5.html.slim">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.625">
@@ -1305,16 +1298,6 @@
         <state vertical-scroll-proportion="-4.5833335">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="67" selection-end-column="3" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/_row_3.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875">
-          <caret line="19" column="242" selection-start-line="19" selection-start-column="242" selection-end-line="19" selection-end-column="242" />
-          <folding>
-            <marker date="1467832946430" expanded="true" signature="345:347" placeholder="| По-настоящему народный рыболовный турнир - “Народная" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1445,9 +1428,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/show_sector.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0726979">
+        <state vertical-scroll-proportion="-1.875">
           <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/_row_4.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/_row_3.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57798165">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <marker date="1467840133046" expanded="true" signature="345:347" placeholder="| По-настоящему народный рыболовный турнир - “Народная" />
+          </folding>
         </state>
       </provider>
     </entry>
