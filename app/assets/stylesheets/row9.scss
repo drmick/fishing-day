@@ -60,6 +60,9 @@
     display: inline-block;
     height: auto;
     min-height: 600px;
+    @media (max-width: 991px) {
+      min-height: initial;
+    }
     opacity: 0.8;
   }
 

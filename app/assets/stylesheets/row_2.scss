@@ -13,6 +13,11 @@
   @media (max-width: 767px) {
     padding: 5px;
   }
+
+  .row.c {
+    padding-top: 15px;
+    padding-bottom: 5px ;
+  }
 }
 
 .r2t1, .r2t3, h1 {
@@ -31,9 +36,14 @@
     padding: 15px;
   }
   @media (min-width: 1200px) {
-    padding: 30px;
+    padding: 20px;
     font-size: 24px;
   }
+  margin-bottom: 0px !important;
+}
+
+.r2t3 {
+  margin-top: 0px;
 }
 
 .r2t2 {
@@ -42,7 +52,7 @@
 
   @media (max-width: 767px) {
     font-size: 14px;
-    padding: 5px;
+    padding: 5px 5px 15px 5px;
   }
   @media (min-width: 768px) and (max-width: 991px) {
     font-size: 16px;
@@ -53,9 +63,10 @@
     padding: 10px;
   }
   @media (min-width: 1200px) {
-    padding: 20px;
+    padding: 10px;
     font-size: 20px;
   }
+  margin-top: 0px !important;
 }
 
 

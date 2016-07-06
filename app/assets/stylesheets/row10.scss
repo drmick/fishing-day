@@ -46,7 +46,7 @@
 
   .right {
 
-    .middle-text-white {
+    .middle-text {
       padding: 15px 0px 15px 0px;
     }
 
@@ -68,6 +68,9 @@
     height: auto;
     min-height: 600px;
     opacity: 0.8;
+    @media (max-width: 991px) {
+      min-height: initial;
+    }
   }
 
 }
