@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed1a91e6-7bcf-4639-b0d8-45fdaa2eb236" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/2-1.png" afterPath="$PROJECT_DIR$/app/assets/images/2-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/market.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/fishdayland3.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/bck1.jpg" afterPath="$PROJECT_DIR$/app/assets/images/bck1.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/common.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/common.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/row10.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/row10.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/row12.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/row12.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/row3.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/row3.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/row5.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/row5.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/row9.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/row9.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/row_2.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/row_2.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/expos.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/expos.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_row_3.html.slim" afterPath="$PROJECT_DIR$/app/views/home/_row_3.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_row_6.html.slim" afterPath="$PROJECT_DIR$/app/views/home/_row_6.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_row_8.html.slim" afterPath="$PROJECT_DIR$/app/views/home/_row_8.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_row_9.html.slim" afterPath="$PROJECT_DIR$/app/views/home/_row_9.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/exp.html.slim" afterPath="$PROJECT_DIR$/app/views/home/exp.html.slim" />
     </list>
     <ignored path="frp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,10 +60,10 @@
       <file leaf-file-name="_row_3.html.slim" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/_row_3.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.375">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state vertical-scroll-proportion="-11.875">
+              <caret line="19" column="242" selection-start-line="19" selection-start-column="242" selection-end-line="19" selection-end-column="242" />
               <folding>
-                <marker date="1467831168902" expanded="true" signature="345:347" placeholder="| По-настоящему народный рыболовный турнир - “Народная" />
+                <marker date="1467832946430" expanded="true" signature="345:347" placeholder="| По-настоящему народный рыболовный турнир - “Народная" />
               </folding>
             </state>
           </provider>
@@ -80,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-8.583333">
-              <caret line="228" column="24" selection-start-line="228" selection-start-column="24" selection-end-line="228" selection-end-column="24" />
+              <caret line="190" column="0" selection-start-line="190" selection-start-column="0" selection-end-line="214" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -89,18 +82,38 @@
       <file leaf-file-name="row_2.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/row_2.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625">
-              <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.5833335">
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="67" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_row_8.html.slim" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_row_8.html.slim" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/_row_8.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5088853">
+            <state vertical-scroll-proportion="-13.125">
               <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exp.html.slim" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/home/exp.html.slim">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.5">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="expos.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/expos.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.1453958">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -114,26 +127,6 @@
               <folding>
                 <marker date="1467823559266" expanded="true" signature="277:279" placeholder="| На этот раз площадка «Рыбной недели» будет посвящена" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="row10.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/row10.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.2083334">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="row12.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/row12.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -186,7 +179,6 @@
         <option value="$PROJECT_DIR$/app/views/home/_rule_cont.html.slim" />
         <option value="$PROJECT_DIR$/app/views/home/_new_exp.html.slim" />
         <option value="$PROJECT_DIR$/app/views/expos/_form.html.slim" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/expos.scss" />
         <option value="$PROJECT_DIR$/app/views/expos/create.js.erb" />
         <option value="$PROJECT_DIR$/app/models/expo.rb" />
         <option value="$PROJECT_DIR$/app/views/user_mailer/expo.html.slim" />
@@ -197,7 +189,6 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.slim" />
         <option value="$PROJECT_DIR$/app/views/home/rules.html.slim" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/fonts.scss" />
-        <option value="$PROJECT_DIR$/app/views/home/exp.html.slim" />
         <option value="$PROJECT_DIR$/app/views/home/_row_5.html.slim" />
         <option value="$PROJECT_DIR$/app/views/home/_row_7.html.slim" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.slim" />
@@ -217,8 +208,10 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/common.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/row_2.scss" />
-        <option value="$PROJECT_DIR$/app/views/home/_row_3.html.slim" />
         <option value="$PROJECT_DIR$/app/views/home/_row_8.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/home/_row_3.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/home/exp.html.slim" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/expos.scss" />
       </list>
     </option>
   </component>
@@ -982,14 +975,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="-4" width="1881" height="1084" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16185287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3184584" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3184584" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35902637" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1080,16 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.875">
           <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/expos.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding>
-            <marker date="1467745326016" expanded="true" signature="14:64" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1199,14 +1182,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.0">
           <caret line="99" column="35" selection-start-line="99" selection-start-column="35" selection-end-line="99" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/exp.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1407,25 +1382,17 @@
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.583333">
-          <caret line="228" column="24" selection-start-line="228" selection-start-column="24" selection-end-line="228" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/row_2.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625">
-          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <caret line="190" column="0" selection-start-line="190" selection-start-column="0" selection-end-line="214" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/_row_3.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="19" column="242" selection-start-line="19" selection-start-column="242" selection-end-line="19" selection-end-column="242" />
           <folding>
-            <marker date="1467831168902" expanded="true" signature="345:347" placeholder="| По-настоящему народный рыболовный турнир - “Народная" />
+            <marker date="1467832946430" expanded="true" signature="345:347" placeholder="| По-настоящему народный рыболовный турнир - “Народная" />
           </folding>
         </state>
       </provider>
@@ -1438,10 +1405,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/row_2.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5833335">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="67" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/_row_8.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5088853">
+        <state vertical-scroll-proportion="-13.125">
           <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/exp.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/expos.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1453958">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding />
         </state>
       </provider>
