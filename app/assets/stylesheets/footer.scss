@@ -1,5 +1,11 @@
 .footer {
 
+  .t1 {
+    font-family: OpenSansBold;
+    font-size: 14px;
+    margin: 30px 10px 10px 10px;
+  }
+
   .r1 {
     padding: 10px 30px 30px 30px ;
     @media (max-width: 767px) {
@@ -7,11 +13,7 @@
     }
     background-color: #2490d8;
     color: white;
-    .t1 {
-      font-family: OpenSansBold;
-      font-size: 14px;
-      margin: 30px 10px 10px 10px;
-    }
+
     .t2 {
       margin: 10px 10px 10px 10px;
       a {color: white}
@@ -21,6 +23,15 @@
       @media (max-width: 767px) {
         font-size: 18px;
       }
+    }
+  }
+
+  .r2 {
+    color: white;
+    padding: 30px;
+    background-color: #8397c9;
+    .t1 {
+      margin: 0px 0px 15px 0px ;
     }
   }
 }
