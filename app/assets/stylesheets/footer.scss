@@ -1,54 +1,21 @@
 .footer {
-  position: relative;
-  height: 120px;
-  background-color: #23408f !important;
-  .left1 {
-    top:10px;
-    position: absolute;
-    left: 50px;
-    font-size: 18px;
+
+  .r1 {
+    padding: 10px 30px 30px 30px ;
+    background-color: #2490d8;
     color: white;
-    font-family: "OpenSansCondensedBold";
-  }
-  .left2 {
-    top:40px;
-    position: absolute;
-    left: 50px;
-    font-size: 26px;
-    color: white;
-    font-family: "OpenSansCondensedBold";
-    a {
-      color: white !important;
+    .t1 {
+      font-family: OpenSansBold;
+      font-size: 14px;
+      margin: 30px 10px 10px 10px;
+    }
+    .t2 {
+      margin: 10px 10px 10px 10px;
+      a {color: white}
+      font-family: OpenSansLight;
+      font-size: 34px;
+      line-height: 1.2em;
+
     }
   }
-  .left3 {
-    top:80px;
-    position: absolute;
-    left: 50px;
-    font-size: 18px;
-    color: white;
-    font-family: "OpenSansCondensedBold";
-    a {color: white !important;}
-  }
-  .rel {
-    position: relative;
-  }
-
-  .right {
-    a {
-      padding: 10px;
-    }
-    top:40px;
-    position: absolute;
-    right: 40px;
-    @media (max-width: 767px) {
-      left: 40px;
-      right: auto;
-      top:120px;
-      padding-bottom: 10px;
-    }
-  }
-
-
-
 }
