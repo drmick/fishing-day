@@ -2,6 +2,9 @@
 
   .r1 {
     padding: 10px 30px 30px 30px ;
+    @media (max-width: 767px) {
+      padding: 5px 10px 10px 10px;
+    }
     background-color: #2490d8;
     color: white;
     .t1 {
@@ -15,6 +18,9 @@
       font-family: OpenSansLight;
       font-size: 34px;
       line-height: 1.2em;
+      @media (max-width: 767px) {
+        font-size: 18px;
+      }
 
     }
   }
