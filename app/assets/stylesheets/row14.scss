@@ -1,0 +1,64 @@
+.row-14 {
+  height: auto;
+  text-align: center;
+  background-color: rgba(218, 233, 238, 1);
+  //min-height: 500px;
+  padding: 20px 20px 30px 20px;
+  @media (max-width: 767px) {
+    padding: 5px 5px 15px 5px;
+
+  }
+  .t1 {
+    font-family: OpenSansCondensedBold;
+    font-size: 52px;
+    @media (max-width: 767px) {
+      font-size: 30px;
+    }
+    color: #2193da;
+    margin: 20px;
+    @media (max-width: 767px) {
+      padding: 5px;
+    }
+  }
+  .t1, .t2, .t3, .t4, .t5 {
+    padding: 20px;
+    @media (max-width: 767px) {
+      padding: 10px;
+    }
+  }
+
+  .t {
+    font-family: OpenSansCondensedBold;
+    font-size: 16px;
+    @media (max-width: 767px) {
+      font-size: 14px;
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+
+    }
+    @media (min-width: 992px) and (max-width: 1199px) {
+
+    }
+    @media (min-width: 1200px) {
+
+    }
+  }
+
+  .b {
+    font-family: OpenSansLight;
+    font-size: 24px;
+    line-height: 1.3em;
+    @media (max-width: 767px) {
+      font-size: 20px;
+    }
+  }
+
+  .t5 {
+    font-family: OpenSansBold;
+    font-size: 20px;
+    @media (max-width: 767px) {
+      font-size: 16px;
+    }
+    color: #2193da;
+  }
+}
