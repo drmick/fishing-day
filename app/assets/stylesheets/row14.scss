@@ -1,13 +1,27 @@
 .row-14 {
   height: auto;
   text-align: center;
-  background-color: rgba(218, 233, 238, 1);
+  background-color: white;
   //min-height: 500px;
-  padding: 20px 20px 30px 20px;
-  @media (max-width: 767px) {
-    padding: 5px 5px 15px 5px;
-
+  padding: 0px;
+  position: relative;
+  .wrp2 {
+    padding: 20px 20px 30px 20px;
+    @media (max-width: 767px) {
+      padding: 5px 5px 15px 5px;
+    }
+    position: relative;
+    
   }
+
+  .img-wrp {
+    height: 500px;
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    left:0px;
+  }
+
   .t1 {
     font-family: OpenSansCondensedBold;
     font-size: 52px;
