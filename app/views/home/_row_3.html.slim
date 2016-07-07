@@ -1,8 +1,8 @@
-.row-3
+.row-3.bkg3
   a.anch name="row3"
   .img-wrp
     = image_tag("bck3.jpg", class: "bimg-3");
-    .grad-white
+    .grad-white2
   .cont.ta-c
     .row.c.nopaddng
       .col-lg-6.left.col-md-6.col-sm-6.hidden-xs
@@ -24,8 +24,19 @@
           Расписание турнира смотрите ниже в «Программе». Ждем вас!
         br
         br
-        .wra
-          a.btn.btn-warning href=rules_path ПРАВИЛА ТУРНИРА
+        .row
+          .col-lg-6.col-md-6.col-sm-12
+            .wra
+              a.btn.btn-warning href=rules_path ПРАВИЛА ТУРНИРА
+          .col-lg-6.col-md-6.col-sm-12
+            .wra2
 
+              .imag
+                =image_tag "valuev.png"
+                .txt
+
+                  |ПРЕДСЕДАТЕЛЬ ТУРНИРА
+                  br
+                  |НИКОЛАЙ ВАЛУЕВ
         br
         br

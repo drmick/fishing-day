@@ -17,6 +17,69 @@
       }
     }
   }
+  .auto {
+    display: none;
+  }
+}
+
+.main > .row-4 {
+  padding-top: 140px !important;
+  @media (max-width: 500px) {
+    padding-top: 70px !important;
+  }
+  @media (max-width: 320px) {
+    padding-top: 50px !important;
+  }
+  position: relative;
+  .auto {
+    display: block !important;
+    position: absolute;
+
+    right: 0px;
+
+    @media (max-width: 320px) {
+      top: -26px !important;
+      img {
+        width: 80% !important;
+        max-width: 450px;
+      }
+    }
+
+    @media (max-width: 500px) {
+      top: -20px;
+      img {
+        width: 70% !important;
+        max-width: 450px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      left: 20px;
+      top:-40px;
+      img {
+        width: 100%;
+        max-width: 450px;
+      }
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+      left: 110px;
+      top:-70px;
+      img {
+        width: 530px;
+      }
+    }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      left: 110px;
+      top:-110px;
+    }
+    @media (min-width: 1200px) {
+      left: 110px;
+      top:-110px;
+    };
+
+
+
+  }
 }
 
 .phone-pref {
