@@ -51,6 +51,19 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "OpenSansItallic";
+  src: url(font-path("open-sans.italic.ttf")) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSansLightItallic";
+  src: url(font-path("open-sans.light-italic.ttf")) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 
 
 @font-face {

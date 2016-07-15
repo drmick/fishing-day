@@ -1,3 +1,4 @@
+
 .row-3, .row-5, .row-6, .row-7, .row-8, .row-9, .row-10 {
   position: relative;
   .cont {
@@ -8,6 +9,10 @@
     text-align: center;
   }
 }
+
+
+
+
 .row-3 {
   min-height: 600px;
   background-color: #ffffff;
@@ -134,4 +139,85 @@
   }
 }
 
+
+.row2-1 {
+  min-height: 367px !important;
+  .img-wrp {
+    height: 367px !important;
+    @media (max-width: 1070px) {
+      display: none;
+    }
+  }
+
+  .cr {
+    margin-right: 15%;
+    margin-left: 19%;
+    @media (max-width: 767px) {
+      margin-right: 5%;
+      margin-left: 5%;
+      padding-bottom: 20px;
+
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+      margin-right: 5%;
+      margin-left: 5%;
+      padding-bottom: 20px;
+    }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      margin-right: 10%;
+      margin-left: 12%;
+      padding-bottom: 20px;
+    }
+    .wf {
+      line-height: 350px;
+      width: 250px;
+      position: absolute;
+      @media (max-width: 767px) {
+        position: relative;
+        width: 100%;
+        line-height: 280px;
+      }
+    }
+    img {
+      padding: 20px 0px 20px 0px;
+    }
+  .bl {
+
+    padding: 20px;
+    padding-left: 270px;
+    padding-top: 70px;
+    @media (max-width: 767px) {
+      padding: 5px;
+
+    }
+    width: 100%;
+    text-align: left;
+    .t1 {
+      font-family: OpenSans;
+      font-size: 22px;
+      line-height: 1.25em;
+      color: #505050;
+    }
+
+    .t2 {
+      font-family: OpenSans;
+      font-size: 16px;
+      padding-top: 5px;
+      line-height: 1.25em;
+      color: #505050;
+    }
+
+    .t3 {
+      font-family: OpenSansLightItallic;
+      font-size: 24px;
+      padding-top: 20px;
+      line-height: 1.25em;
+      color: #4975a4;
+    }
+
+
+  }
+  }
+
+}
 
