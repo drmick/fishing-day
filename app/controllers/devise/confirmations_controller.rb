@@ -21,23 +21,29 @@ class Devise::ConfirmationsController < DeviseController
     self.resource = resource_class.confirm_by_token(params[:confirmation_token])
     yield resource if block_given?
 
-
+    sec = 1
 
     count = User.active.count
     if count < C_MAX_SEC
-      self.resource.sector = self.resource.get_sector_id
-      self.resource.unique_key = (0...5).map { (65 + rand(26)).chr }.join + '-' +self.resource.sector.to_s
+      if self.resource.sector.nil?
+        self.resource.sector = self.resource.get_sector_id
+        self.resource.unique_key = (0...5).map { (65 + rand(26)).chr }.join + '-' +self.resource.sector.to_s
+        sec = 2
+      end
     end
 
     self.resource.save
 
     if resource.errors.empty?
 
-      if !resource.sector.nil?
+
+    if !resource.sector.nil?
+      if sec == 2
         UserMailer.after_reg(resource).deliver_now
-      else
-        UserMailer.no_sector(resource).deliver_now
       end
+    else
+      UserMailer.no_sector(resource).deliver_now
+    end
 
 
       set_flash_message(:notice, :confirmed) if is_flashing_format?
