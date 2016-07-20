@@ -2,6 +2,15 @@
   min-height: 600px;
   background-color: black;
 
+  .mpc {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .prod {
+    margin-top: 45px;
+  }
+
   .img-wrp {
     height: 600px;
     width: 100%;
@@ -25,7 +34,7 @@
       padding: 20px;
     }
     @media (min-width: 1200px) {
-      padding: 90px 30px 90px 90px;
+      padding: 50px 30px 50px 90px;
     };
 
     img {
