@@ -1,1 +1,1 @@
-C_MAX_SEC = 275
+C_MAX_SEC = 285
