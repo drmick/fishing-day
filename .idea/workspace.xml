@@ -96,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/home/_row_14.html.slim">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.4373178">
-              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+              <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -1122,7 +1122,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/home/_row_14.html.slim">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4373178">
-          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
           <folding />
         </state>
       </provider>
