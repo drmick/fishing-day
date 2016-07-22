@@ -41,8 +41,8 @@ class Devise::ConfirmationsController < DeviseController
       if sec == 2
         UserMailer.after_reg(resource).deliver_now
       end
-    else
-      UserMailer.no_sector(resource).deliver_now
+    #else
+      #UserMailer.no_sector(resource).deliver_now
     end
 
 
