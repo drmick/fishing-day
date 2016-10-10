@@ -128,3 +128,32 @@ a:hover {
 a.btn-warning:hover {
   background-color: #FE5400 !important;
 }
+
+.font1 {
+  font-size: 22px;
+  font-weight: bold;
+  @media (max-width: 992px) {
+    font-size: 16px;
+  }
+}
+
+.font2 {
+  padding: 10px;
+  font-size: 16px;
+  @media (max-width: 992px) {
+    font-size: 12px;
+  }
+}
+
+.winners {
+  background-color: white;
+}
+
+.winCont {
+  max-width: 800px;
+  img {max-width: 100%}
+}
+
+video {
+  max-width: 100%;
+}

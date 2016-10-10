@@ -1,0 +1,27 @@
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.pv60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+}
+
+.pv20{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.width100 {
+  width: 100%;
+  max-width: 100%;
+}

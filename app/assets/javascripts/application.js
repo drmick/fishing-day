@@ -13,4 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require yamaps
+//= require video
+
 //= require_tree .
