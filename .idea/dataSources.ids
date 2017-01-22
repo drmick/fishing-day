@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<component name="dataSourceStorage">
-  <data-source name="Rails frp: development" uuid="d8ab68bb-e33f-45ff-b2af-63191b270b12">
-    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
-  </data-source>
-  <data-source name="Rails frp: production" uuid="f273f1e2-9e45-4b8f-890d-154cea658107">
-    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
-  </data-source>
-</component>
